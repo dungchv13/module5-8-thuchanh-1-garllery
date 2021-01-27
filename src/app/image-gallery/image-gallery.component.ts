@@ -8,12 +8,12 @@ import {GalleryConfig} from "./token";
 })
 export class ImageGalleryComponent implements OnInit {
   listImage = [
-    'https://via.placeholder.com/1280x420/e91e63/ffffff?text=1',
-    'https://via.placeholder.com/1280x420/e91e63/ffffff?text=2',
-    'https://via.placeholder.com/1280x420/e91e63/ffffff?text=3',
-    'https://via.placeholder.com/1280x420/e91e63/ffffff?text=4',
-    'https://via.placeholder.com/1280x420/e91e63/ffffff?text=4',
-    'https://via.placeholder.com/1280x420/e91e63/ffffff?text=4'
+    'https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg',
+    'https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg',
+    'https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg',
+    'https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg',
+    'https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg',
+    'https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg'
   ];
 
   itemWidth: number = 0;

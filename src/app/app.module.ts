@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import {ImageGalleryModule} from "./image-gallery/image-gallery.module";
 import {GalleryConfig} from "./image-gallery/token";
+import {ImgSlideModule} from "./img-slide/img-slide.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {GalleryConfig} from "./image-gallery/token";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ImageGalleryModule
+    ImageGalleryModule,
+    ImgSlideModule
   ],
   providers: [
     {provide: GalleryConfig, useValue: 3}

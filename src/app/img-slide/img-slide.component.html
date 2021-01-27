@@ -1,0 +1,8 @@
+<p>img-slide works!</p>
+<div>
+  <img  [src]="img.src" style="max-width: 100%" class="card-img-top">
+</div>
+<div>
+  <button class="btn-primary" (click)="previous()" [disabled]="img.id==1">previous</button>
+  <button class="btn-primary" (click)="next()" [disabled]="img.id==6">next</button>
+</div>
